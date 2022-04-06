@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		AEB6788627FC629A0069B454 /* FarmGPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6788527FC629A0069B454 /* FarmGPSApp.swift */; };
-		AEB6788827FC629A0069B454 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6788727FC629A0069B454 /* ContentView.swift */; };
+		AEB6788827FC629A0069B454 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6788727FC629A0069B454 /* StartView.swift */; };
 		AEB6788A27FC629B0069B454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB6788927FC629B0069B454 /* Assets.xcassets */; };
 		AEB6788D27FC629B0069B454 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB6788C27FC629B0069B454 /* Preview Assets.xcassets */; };
+		AEB6789427FC62F60069B454 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6789327FC62F60069B454 /* SceneKitView.swift */; };
+		AEB6789627FC63150069B454 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6789527FC63150069B454 /* MapView.swift */; };
+		AEB6789927FC63840069B454 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6789827FC63840069B454 /* AppManager.swift */; };
+		AEB6789B27FC64570069B454 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6789A27FC64570069B454 /* GameScene.swift */; };
+		AEB6789D27FC65A60069B454 /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6789C27FC65A60069B454 /* Extra.swift */; };
+		AEB678A127FC67EF0069B454 /* ARorGPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB678A027FC67EF0069B454 /* ARorGPS.swift */; };
+		AEB678A327FC6A670069B454 /* GPSNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB678A227FC6A670069B454 /* GPSNavigationView.swift */; };
+		AEB678A527FC6A870069B454 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB678A427FC6A870069B454 /* ARView.swift */; };
+		AEB678A727FC6B8E0069B454 /* ARGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB678A627FC6B8E0069B454 /* ARGameScene.swift */; };
+		AEB678A927FC6D740069B454 /* ARwrappedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB678A827FC6D740069B454 /* ARwrappedView.swift */; };
+		AEB678AE27FC70840069B454 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB678AD27FC70840069B454 /* FocusSquare.swift */; };
+		AEB678B227FC70AD0069B454 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB678B127FC70AD0069B454 /* FocusSquareSegment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEB6788227FC629A0069B454 /* FarmGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB6788527FC629A0069B454 /* FarmGPSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmGPSApp.swift; sourceTree = "<group>"; };
-		AEB6788727FC629A0069B454 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEB6788727FC629A0069B454 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		AEB6788927FC629B0069B454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB6788C27FC629B0069B454 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEB6789327FC62F60069B454 /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
+		AEB6789527FC63150069B454 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AEB6789827FC63840069B454 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		AEB6789A27FC64570069B454 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AEB6789C27FC65A60069B454 /* Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
+		AEB678A027FC67EF0069B454 /* ARorGPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARorGPS.swift; sourceTree = "<group>"; };
+		AEB678A227FC6A670069B454 /* GPSNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSNavigationView.swift; sourceTree = "<group>"; };
+		AEB678A427FC6A870069B454 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		AEB678A627FC6B8E0069B454 /* ARGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameScene.swift; sourceTree = "<group>"; };
+		AEB678A827FC6D740069B454 /* ARwrappedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARwrappedView.swift; sourceTree = "<group>"; };
+		AEB678AD27FC70840069B454 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		AEB678B127FC70AD0069B454 /* FocusSquareSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +76,12 @@
 			isa = PBXGroup;
 			children = (
 				AEB6788527FC629A0069B454 /* FarmGPSApp.swift */,
-				AEB6788727FC629A0069B454 /* ContentView.swift */,
+				AEB6789827FC63840069B454 /* AppManager.swift */,
+				AEB6789A27FC64570069B454 /* GameScene.swift */,
+				AEB678A627FC6B8E0069B454 /* ARGameScene.swift */,
+				AEB6789C27FC65A60069B454 /* Extra.swift */,
+				AEB6789727FC632D0069B454 /* Views */,
+				AEB678B327FC70B10069B454 /* Focus Square */,
 				AEB6788927FC629B0069B454 /* Assets.xcassets */,
 				AEB6788B27FC629B0069B454 /* Preview Content */,
 			);
@@ -65,6 +94,37 @@
 				AEB6788C27FC629B0069B454 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEB6789727FC632D0069B454 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6788727FC629A0069B454 /* StartView.swift */,
+				AEB678A027FC67EF0069B454 /* ARorGPS.swift */,
+				AEB678A227FC6A670069B454 /* GPSNavigationView.swift */,
+				AEB678A427FC6A870069B454 /* ARView.swift */,
+				AEB678AA27FC6FFD0069B454 /* Wrapped View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AEB678AA27FC6FFD0069B454 /* Wrapped View */ = {
+			isa = PBXGroup;
+			children = (
+				AEB678A827FC6D740069B454 /* ARwrappedView.swift */,
+				AEB6789327FC62F60069B454 /* SceneKitView.swift */,
+				AEB6789527FC63150069B454 /* MapView.swift */,
+			);
+			path = "Wrapped View";
+			sourceTree = "<group>";
+		};
+		AEB678B327FC70B10069B454 /* Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				AEB678AD27FC70840069B454 /* FocusSquare.swift */,
+				AEB678B127FC70AD0069B454 /* FocusSquareSegment.swift */,
+			);
+			path = "Focus Square";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +197,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB6788827FC629A0069B454 /* ContentView.swift in Sources */,
+				AEB678A327FC6A670069B454 /* GPSNavigationView.swift in Sources */,
+				AEB6789B27FC64570069B454 /* GameScene.swift in Sources */,
+				AEB6788827FC629A0069B454 /* StartView.swift in Sources */,
+				AEB6789927FC63840069B454 /* AppManager.swift in Sources */,
+				AEB6789627FC63150069B454 /* MapView.swift in Sources */,
+				AEB678B227FC70AD0069B454 /* FocusSquareSegment.swift in Sources */,
+				AEB678A527FC6A870069B454 /* ARView.swift in Sources */,
 				AEB6788627FC629A0069B454 /* FarmGPSApp.swift in Sources */,
+				AEB678A927FC6D740069B454 /* ARwrappedView.swift in Sources */,
+				AEB678AE27FC70840069B454 /* FocusSquare.swift in Sources */,
+				AEB6789D27FC65A60069B454 /* Extra.swift in Sources */,
+				AEB678A727FC6B8E0069B454 /* ARGameScene.swift in Sources */,
+				AEB678A127FC67EF0069B454 /* ARorGPS.swift in Sources */,
+				AEB6789427FC62F60069B454 /* SceneKitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +344,8 @@
 				DEVELOPMENT_TEAM = 6XQ5SQ55JG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For AR Experiance";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Get User Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +375,8 @@
 				DEVELOPMENT_TEAM = 6XQ5SQ55JG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For AR Experiance";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Get User Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
